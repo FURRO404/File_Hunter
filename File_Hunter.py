@@ -4,7 +4,7 @@
 import os
 import time
 import random
-#----------------#
+#--------------------------------#
 ext = str(input("Extension to hunt for ~ "))
 location = str(input("\nPath to Target?~ "))
 
@@ -29,9 +29,7 @@ while True:
                 
             else:
                 print("\nContinuing to search for", ext, "(Selected File ~", file,")")
-            
-#--------------------------------------------#  
-
+#----------------------------------------------------------------------------------------#  
     # Path 
     path = os.path.join(location, file) 
   
